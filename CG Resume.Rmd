@@ -1,0 +1,103 @@
+---
+name: Cavan Gray
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: PhD
+position: Industrial - Organizational Psychologist
+address: Chicago, Illinois
+# profilepic: C:/Users/ugrayca/Pictures/profpic1.png
+phone: 847 770-1061
+email: cavangray@gmail.com
+github: cavangray
+linkedin: cavangray
+headcolor: 414141
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Professional Summary
+I'm a published researcher with a expertise in R, statistical analysis, measurement and employment selection. I have experience leading domestic and international testing programs for multiple clients and guiding them through the legal and ethical landscape of psychometric testing. I enjoy taking creative approach to challenging problems and sharing research and ideas with all audiences. 
+
+
+# Education
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "PhD and MS in Industrial-Organizational Psychology", "University of Georgia", "Athens, Georgia", "Aug. 2012 - May 2018", "Dissertation: Improving Organizational Research: A case for Multidimensional Item Response Theory",
+  "BS (Hons) in Psychology", "Western Illinois University", "Macomb, Illinois", "Aug. 2009 - May 2012", "Department scholar of psychology"
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Experience
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Lead the statistical analysis of several international and domestic professional certification exams using item response theory and classical test theory",
+  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Identified trends using regression and correlations, presented findings and implications to clients",
+  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Summarized analyses in technical reports and presented findings and recommendations to examination supervisory boards",
+  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Created statistical programs to manage multiple large datasets using R and Microsoft Access for reproducible and expedited report creation",
+  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Lead job analyses workshops and surveys to validate newly developed exams",
+  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Conducted and presented research on improving job analysis using natural language processing and multidimensional item response theory",
+  "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Performed a meta-analysis of employee selection tool performance across seven locations to present as expert witness testimony",
+  "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Conducted adverse impact and pay equity analyses for several Fortune 500 organizations", 
+  "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Performed regression and correlation analysis to support the criterion validation of a new situational judgement test",
+  "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Developed a family of competency models using interview and survey methodology",
+  "Psychometric Consultant", "Go Metrics", "Athens, Georgia", "Jan. 2016 - Jul. 2016", "Lead the development and validation of two vocational interest inventories to be used in employee selection",
+  "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Lead the analysis of human resource data for 12 jobs, over a 4-year period and 800,000 applicants. Recommendations for reducing turnover and increasing diverse applicants were presented to senior HR leaders.",
+  "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Supported an organization wide administration and analysis of an organizational culture survey and quartley pulse surveys",
+  "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Played a primary role in conducting the analyses that lead to the successful defense of an adverse impact OFCCP audit",
+  "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Developed various Excel tools using macros and complex formulae to help facilitate data collection from HR Business Partners",
+  "Graduate Research Assistant", "Carl Vinson Institute of Government - Survey Research and Evaluation Unit", "Athens, Georgia", "Jan. 2014 - Dec. 2015", "Supported the implementation,collection and analysis of  large-scale public policy research",
+  "360 Feedback Coach", "RaceTrac Petroleum", "Atlanta, Georgia", "Nov. 2013 - Dec. 2013", "Facilitated developmental 360 performance evaluations for mid-and high-level managers"
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+\newpage
+
+<!-- # Relevant Skills -->
+<!-- ```{r} -->
+<!-- cvskill("Data Analysis", c("Visualisation", "Data Cleaning", "Forecasting", "Modelling", "Communication", "Inference", "Machine Learning", "Web Scraping")) -->
+<!-- cvskill("Programming", c("R", "Python", "SQL", "Java", "C", "C++", "HTML/CSS", "TeX", "MATLAB")) -->
+<!-- ``` -->
+
+# Research & Publications
+## Selected Publications
+```{r}
+tribble(
+  ~ publications,
+  "Gray, C. J., Carter, N. T., & Sears, K. L. (2016). The UWBQ-I: An adaptation and validation of 
+a measure of instigated incivility. Journal of Business and Psychology, 1-19.",
+  "Eby, L. T., Mitchell, M. E., Gray, C. J., Provolt, L., Lorys, A., Fortune, E., Allen, T. D., &
+Goodie, A. (2014). Gambling-Related Problems in Family and Work Life: An Exploratory Study of Weekly Gamblers.  Community, Work, & Family, 1-17."
+) %>%
+  detailed_entries(publications)
+```
+
+## Selected Presentations
+```{r}
+tribble(
+  ~ research,
+  "Gray, C. J., Becker, K. A. (2018). Automating Job Task Analysis with Natural Language Processing. Paper presented to the 2017 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Chicago, IL.",
+  "Gray, C. J., Lautenschlager, G. J., & Carter, N. T. (2017). Improving Measurement Precision in Organizational Research: A Case for Multidimensional Item Reponses Theory.  Paper presented to the 2017 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Orlando, FL.",
+"Gray, C. J., Morelli, N. A., & McClane, W. (2015). Does Use Context Affect Selection Assessments Delivered via Mobile Devices?  Paper presented to the 2015 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Philadelphia, PA.",
+"Gray, C. J., Carter, N. T., & Sears, K. (2015). The UWBQ-I: The Validation of a Measure of Instigated Incivility. Paper presented to the 2015 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Philadelphia, PA."
+) %>%
+  detailed_entries(research)
+```
+
+
+## Competitions & Relevant Coursework
+```{r}
+tribble(
+  ~ competition, ~ from, ~ year,
+  "Titanic Machine Learning, Top 8%", "Kaggle.com", "2018",
+  "Machine Learning, Stanford University", "Coursera", "2018"
+) %>%
+  brief_entries(competition, year, from)
+```
