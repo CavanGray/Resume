@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Professional Summary
-I'm a published researcher with a expertise in R, statistical analysis, measurement and employment selection. I have experience leading domestic and international testing programs for multiple clients and guiding them through the legal and ethical landscape of psychometric testing. I enjoy taking creative approach to challenging problems and sharing research and ideas with all audiences. 
+I'm a published researcher with expertise in R, statistical analysis, measurement and employment selection. I have experience leading domestic and international testing programs for multiple clients and guiding them through the legal and ethical landscape of psychometric testing. I enjoy taking creative approach to challenging problems and sharing research and ideas with all audiences. 
 
 
 # Education
@@ -37,12 +37,13 @@ tribble(
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Lead the statistical analysis of several international and domestic professional certification exams using item response theory and classical test theory",
-  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Identified trends using regression and correlations, presented findings and implications to clients",
-  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Summarized analyses in technical reports and presented findings and recommendations to examination supervisory boards",
-  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Created statistical programs to manage multiple large datasets using R and Microsoft Access for reproducible and expedited report creation",
-  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Lead job analyses workshops and surveys to validate newly developed exams",
-  "Associate Psychometrician", "Pearson VUE", "Chicago, Illinois", "2017 - Present", "Conducted and presented research on improving job analysis using natural language processing and multidimensional item response theory",
+  "Psychometrician", "Pearson VUE", "Chicago, Illinois", "Mar. 2019 - Present", "Engaged in all activities of Associate Psychometrician with a greater empahsis on research and thought leadership",
+  "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Lead the statistical analysis of several international and domestic professional certification exams using item response theory and classical test theory",
+  "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Identified trends using regression and correlations, presented findings and implications to clients",
+  "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Summarized analyses in technical reports and presented findings and recommendations to examination supervisory boards",
+  "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Created statistical programs to manage multiple large datasets using R and Microsoft Access for reproducible and expedited report creation",
+  "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Lead job analyses workshops and surveys to validate newly developed exams",
+  "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Conducted and presented research on improving job analysis using natural language processing and multidimensional item response theory",
   "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Performed a meta-analysis of employee selection tool performance across seven locations to present as expert witness testimony",
   "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Conducted adverse impact and pay equity analyses for several Fortune 500 organizations", 
   "Consultant", "APTMetrics", "Darien, Connecticut", "Jul. 2016 - Dec. 2016", "Performed regression and correlation analysis to support the criterion validation of a new situational judgement test",
