@@ -1,3 +1,3 @@
 # Resume
 
-Updated resume April 2019; created using RMarkdown
+Updated resume April 2021; created using RMarkdown
