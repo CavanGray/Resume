@@ -5,7 +5,7 @@ qualifications: PhD
 position: Industrial - Organizational Psychologist
 address: Chicago, Illinois
 # profilepic: C:/Users/ugrayca/Pictures/profpic1.png
-phone: 847 770-1061
+phone: (847) 770-1061
 email: cavangray@gmail.com
 github: cavangray
 linkedin: cavangray
@@ -17,18 +17,19 @@ output: vitae::awesomecv
 library(tidyverse)
 library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
+options(tinytex.verbose = TRUE)
 ```
 
 # Professional Summary
-I'm a published researcher with expertise in R, statistical analysis, measurement and employment selection. I have experience leading domestic and international testing programs for multiple clients and guiding them through the legal and ethical landscape of psychometric testing. I enjoy taking creative approach to challenging problems and sharing research and ideas with all audiences. 
+Dr. Gray is published researcher with expertise in statistical and data analysis, measurement, employment selection, R and Python. He has experience leading domestic and international testing programs for multiple clients and guiding them through the legal and ethical landscape of psychometric testing. Dr. Gray has broad knowledge of statistical methodologies including item response theory, classical test theory, and machine learning. He combines these skills with a strong understanding of data management and analytics to efficiently manage complex data sources and create reproducible results. He incorporates the diversity of his skills to identify and recommend solutions that fit organizations’ needs and produce actionable insights. He enjoys taking a creative approach to new and challenging problems, sharing research and ideas with all audiences and conveying complex analyses in visually appealing and compelling ways.
 
 
 # Education
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "PhD and MS in Industrial-Organizational Psychology", "University of Georgia", "Athens, Georgia", "Aug. 2012 - May 2018", "Dissertation: Improving Organizational Research: A case for Multidimensional Item Response Theory",
-  "BS (Hons) in Psychology", "Western Illinois University", "Macomb, Illinois", "Aug. 2009 - May 2012", "Department scholar of psychology"
+  "PhD and MS in Industrial-Organizational Psychology", "University of Georgia", "Athens, Georgia", "Aug. 2012 - May 2017", "Dissertation: Improving Organizational Research: A case for Multidimensional Item Response Theory",
+  "BS (Hons) in Psychology", "Western Illinois University", "Macomb, Illinois", "Aug. 2009 - May 2012", "The 2012 Department Scholar of Psychology"
 ) %>% 
   detailed_entries(degree, dates, uni, loc, details)
 ```
@@ -37,7 +38,12 @@ tribble(
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Psychometrician", "Pearson VUE", "Chicago, Illinois", "Mar. 2019 - Present", "Engaged in all activities of Associate Psychometrician with a greater empahsis on research and thought leadership",
+  "Research Scientist", "Personnel Research Decisions Institute (PDRI)", "Chicago, Illinois", "May 2019 - Present", "Using Python, developed an algorithm to automatically grade short-answer essays using natural language processing and machine learning that out-performed a leading industry competitor and published literature.",
+  "Research Scientist", "Personnel Research Decisions Institute (PDRI)", "Chicago, Illinois", "May 2019 - Present", "Led the scoring effort of a modular, computer adaptive, forced-choice item response theory personality assessment.",
+  "Research Scientist", "Personnel Research Decisions Institute (PDRI)", "Chicago, Illinois", "May 2019 - Present", "Led the scoring efforts for a new cognitive ability assessment that included evaluating item performance, factor structure, and calibrating the item scoring using the generalized partial credit model.",
+  "Research Scientist", "Personnel Research Decisions Institute (PDRI)", "Chicago, Illinois", "May 2019 - Present", "Supported the validation of a selection assessment battery for governmental agency intelligence analysts, including adverse impact analysis and criterion validation. Supervised junior staffs’ implementation of the process and selection band strategy. ",
+  "Research Scientist", "Personnel Research Decisions Institute (PDRI)", "Chicago, Illinois", "May 2019 - Present", "Served as several clients’ point of contact and technical expert, guiding them in best practices concerning psychometric testing. Worked with clients to thoroughly understand their needs, offer tailored solutions, answer questions and provide prompt technical documentation and reports upon completion of tasks.",
+  "Psychometrician", "Pearson VUE", "Chicago, Illinois", "Mar. 2019 - May 2019", "Engaged in all activities of Associate Psychometrician with a greater empahsis on research and thought leadership",
   "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Lead the statistical analysis of several international and domestic professional certification exams using item response theory and classical test theory",
   "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Identified trends using regression and correlations, presented findings and implications to clients",
   "Associate Psychometrician", "", "Chicago, Illinois", "Dec. 2016 - Mar. 2019", "Summarized analyses in technical reports and presented findings and recommendations to examination supervisory boards",
@@ -52,14 +58,12 @@ tribble(
   "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Lead the analysis of human resource data for 12 jobs, over a 4-year period and 800,000 applicants. Recommendations for reducing turnover and increasing diverse applicants were presented to senior HR leaders.",
   "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Supported an organization wide administration and analysis of an organizational culture survey and quartley pulse surveys",
   "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Played a primary role in conducting the analyses that lead to the successful defense of an adverse impact OFCCP audit",
-  "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Developed various Excel tools using macros and complex formulae to help facilitate data collection from HR Business Partners",
-  "Graduate Research Assistant", "Carl Vinson Institute of Government - Survey Research and Evaluation Unit", "Athens, Georgia", "Jan. 2014 - Dec. 2015", "Supported the implementation,collection and analysis of  large-scale public policy research",
-  "360 Feedback Coach", "RaceTrac Petroleum", "Atlanta, Georgia", "Nov. 2013 - Dec. 2013", "Facilitated developmental 360 performance evaluations for mid-and high-level managers"
+  "Organization and Management Development Intern", "Frito-Lay", "Plano, Texas", "Jan. 2015 - Dec. 2015", "Developed various Excel tools using macros and complex formulae to help facilitate data collection from HR Business Partners"
 ) %>% 
   detailed_entries(role, dates, company, loc, details)
 ```
 
-\newpage
+<!-- \newpage -->
 
 <!-- # Relevant Skills -->
 <!-- ```{r} -->
@@ -84,7 +88,11 @@ Goodie, A. (2014). Gambling-Related Problems in Family and Work Life: An Explora
 ```{r}
 tribble(
   ~ research,
-  "Gray, C. J., Becker, K. A. (2018). Automating Job Task Analysis with Natural Language Processing. Paper presented to the 2017 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Chicago, IL.",
+  "Gray, C. J. (April, 2021). In S. Marin & C. J. Gray (Chairs), Automatic essay scoring: ‘Big’ data with small samples. Accepted at the 36th Annual Meeting of the Society for Industrial and Organizational Psychology: Virtual Conference.",
+  "Panelist (April, 2021). In J. Meaden (Chair), Doing what the robots can’t: The role of (human) I/Os in AI assessment. Accepted at the 36th Annual Meeting of the Society for Industrial and Organizational Psychology: Virtual Conference.",
+  "Panelist (April, 2021). In L. M., Kath (Chair), Creative ways to get the word out about I-O psychology. Accepted at the 36th Annual Meeting of the Society for Industrial and Organizational Psychology: Virtual Conference.",
+  "Gray, C. J. & Mead A. D. (Chairs, April 2020). Unstructured data in organizational research. Presented at the 35th Annual Meeting of the Society for Industrial and Organizational Psychology: Virtual Conference.",
+  "Gray, C. J. & Becker, K. A. (2018). Automating Job Task Analysis with Natural Language Processing. Paper presented to the 2017 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Chicago, IL.",
   "Gray, C. J., Lautenschlager, G. J., & Carter, N. T. (2017). Improving Measurement Precision in Organizational Research: A Case for Multidimensional Item Reponses Theory.  Paper presented to the 2017 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Orlando, FL.",
 "Gray, C. J., Morelli, N. A., & McClane, W. (2015). Does Use Context Affect Selection Assessments Delivered via Mobile Devices?  Paper presented to the 2015 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Philadelphia, PA.",
 "Gray, C. J., Carter, N. T., & Sears, K. (2015). The UWBQ-I: The Validation of a Measure of Instigated Incivility. Paper presented to the 2015 Society for Industrial/Organizational Psychology (SIOP) Annual Conference, Philadelphia, PA."
